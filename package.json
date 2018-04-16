@@ -1,0 +1,19 @@
+{
+  "name": "eshop-static",
+  "version": "1.0.0",
+  "description": "电商静态页",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node live-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitee.com:cestr_big_front_end/eshop-static.git"
+  },
+  "keywords": [],
+  "author": "Cest",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
