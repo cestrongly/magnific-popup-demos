@@ -7,11 +7,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link href="https://cdn.bootcss.com/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet">
+
+  <!-- js  -->
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 </head>
 
 <body>
+  <!-- 示例1  -->
   <section>
     <h2>
       1. From an HTML element
@@ -27,6 +30,7 @@
     </script>
   </section>
 
+  <!-- 示例2 -->
   <section>
     <h2>From a group of elements with one parent</h2>
     <div class="parent-container">
@@ -44,6 +48,7 @@
   </section>
 
 
+  <!-- 示例3 -->
   <section>
     <h2>Gallery with arrows inside</h2>
     <style>
@@ -63,6 +68,11 @@
         display: block;
         width: 100%;
         height: 100%;
+      }
+
+      /* 隐藏箭头 */
+      .mfp-container button.mfp-arrow {
+        display: none;
       }
 
       /* 动画效果 */
@@ -120,7 +130,7 @@
       </a>
       <a href="images/003.jpg" target="blank">这是一个普通的链接</a>
     </div>
-    <a href="www.baidu.com" target="blank">这是一个普通的链接</a>
+    <a href="images/003.jpg" target="blank">这是一个普通的链接</a>
     <script>
       $('.demo-3').magnificPopup({
         type: 'image',
